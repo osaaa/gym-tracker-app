@@ -34,15 +34,15 @@ export default function Input({
 	);
 }
 
-Input.PropTypes = {
-    handleChange = handleChange.PropTypes
-	value,
-	labelText,
-	labelFor,
-	id,
-	name,
-	type,
-	isRequired = false,
-	placeholder,
-	customClass,
+Input.propTypes = {
+	handleChange: PropTypes.func.isRequired,
+	value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+	labelText: PropTypes.string,
+	labelFor: PropTypes.string.isRequired,
+	id: PropTypes.string.isRequired,
+	name: PropTypes.string.isRequired,
+	type: PropTypes.string.isRequired,
+	isRequired: PropTypes.bool,
+	placeholder: PropTypes.string,
+	customClass: PropTypes.string,
 };

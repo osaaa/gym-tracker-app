@@ -23,14 +23,24 @@ const loginFields = [
 
 const signupFields = [
 	{
-		labelText: "Username",
-		labelFor: "username",
-		id: "username",
-		name: "username",
+		labelText: "FirstName",
+		labelFor: "FirstName",
+		id: "FirstName",
+		name: "FirstName",
 		type: "text",
-		autoComplete: "username",
+		autoComplete: "FirstName",
 		isRequired: true,
-		placeholder: "Username",
+		placeholder: "Osa",
+	},
+	{
+		labelText: "LastName",
+		labelFor: "LastName",
+		id: "LastName",
+		name: "LastName",
+		type: "text",
+		autoComplete: "LastName",
+		isRequired: true,
+		placeholder: "Ikhinmwin",
 	},
 	{
 		labelText: "Email address",
@@ -40,7 +50,7 @@ const signupFields = [
 		type: "email",
 		autoComplete: "email",
 		isRequired: true,
-		placeholder: "Email address",
+		placeholder: "osa@419.com",
 	},
 	{
 		labelText: "Password",

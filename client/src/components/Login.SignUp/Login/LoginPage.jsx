@@ -1,16 +1,18 @@
-import Header from "./Header";
+import Header from "../Header";
+import Login from "./Login";
 
-const Login = () => {
+const LoginPage = () => {
 	return (
 		<>
 			<Header
 				heading="Login to your account"
 				paragraph="Don't have an account yet? "
 				linkName="Signup"
-				linkUrl="/signup"
+				linkUrl="/sign-up"
 			/>
+			<Login />
 		</>
 	);
 };
 
-export default Login;
+export default LoginPage;
