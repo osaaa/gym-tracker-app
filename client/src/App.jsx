@@ -5,9 +5,11 @@ import { Home } from "./components/Navigation/Home.jsx";
 function App() {
 	return (
 		<>
-			<Home />
-			{/* <Login /> */}
-			{/* <SlideInAuth /> */}
+			<div className="bg-neutral-100 min-h-screen">
+				<Home />
+				{/* <Login /> */}
+				{/* <SlideInAuth /> */}
+			</div>
 		</>
 	);
 }

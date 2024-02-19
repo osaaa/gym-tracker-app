@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import NavLink from "./NavLink.jsx";
-import ccreasedOne from "../../../assets/ccreased_one.svg";
+// import ccreasedOne from "../../../assets/ccreased_one.svg";
 
 const LinksContainer = () => {
 	return (
@@ -12,7 +12,6 @@ const LinksContainer = () => {
 					</NavLink>
 				);
 			})}
-			<img src={ccreasedOne} />
 		</motion.div>
 	);
 };
