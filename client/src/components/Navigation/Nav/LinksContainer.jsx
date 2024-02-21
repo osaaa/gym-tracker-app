@@ -24,7 +24,7 @@ const LINKS = [
 		href: "/",
 	},
 	{
-		title: "Login",
+		title: "login",
 		href: "/login",
 	},
 	{

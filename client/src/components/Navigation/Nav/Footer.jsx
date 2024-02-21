@@ -7,7 +7,7 @@ export const Footer = () => {
 	return (
 		<>
 			<div className="flex flex-row">
-				<div className="absolute bottom-6 left-6 flex gap-4 md:flex-col">
+				<div className="absolute bottom-6 left-6 flex md:flex-col">
 					{SOCIAL_CTAS.map((l, idx) => {
 						return (
 							<motion.a
